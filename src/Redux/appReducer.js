@@ -1,13 +1,12 @@
 const getData = async () => {
   const response = await fetch('http://localhost:3000/message');
-  const data = await response.json()
-  return data
-}
+  const data = await response.json();
+  return data;
+};
 
 // Actions
 
 const DISPLAY_GREETINGS = 'hello-world-rails-react/arrReducer/DISPLAY_GREETINGS';
-
 
 // Reducers
 

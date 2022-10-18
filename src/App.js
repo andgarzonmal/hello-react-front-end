@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Greeting from "./Greeting";
+import Greeting from './Greeting';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <Route path="/" element={<Greeting />} />
       </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
